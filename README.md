@@ -50,10 +50,10 @@ que diga: “Paciente apto para citas.”
 
 | Tecnologia      |    | 
 |-------------------|-------------|
-| ![Mockup](../PruebaDentosUX/Documentacion/js.png)   | JavaScript   | 
-|![Mockup](../PruebaDentosUX/Documentacion/css.png)        | CSS       | 
-|![Mockup](../PruebaDentosUX/Documentacion/html.png)  | HTML | 
-| ![Mockup](../PruebaDentosUX/Documentacion/figma.png)         | Figma  | 
+| ![Mockup](./Documentacion/js.png)   | JavaScript   | 
+|![Mockup](./Documentacion/css.png)        | CSS       | 
+|![Mockup](./Documentacion/html.png)  | HTML | 
+| ![Mockup](./Documentacion/figma.png)         | Figma  | 
  
 
 
