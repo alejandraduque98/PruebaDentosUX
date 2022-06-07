@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Estilos/Estilo-Pacientes.css">
+    <!--Iconos-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <title>Perfil Pacientes</title>
+    <!--Fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500&display=swap" rel="stylesheet">
+    <!--Scrpts-->
+    <script src="../Scripts/agendar.js"></script>
+  </head>
+  <body>
+    <!--NavBar-->
+    <div class=" pt-4 mr-5">
+        <ul class="nav justify-content-end menu">
+            <li class="nav-item menu">
+              <a class="nav-link " href="#"><i class="bi bi-house mr-2"></i>Home</a>
+            </li>
+            <li class="nav-item menu">
+                <a class="nav-link " href="#"><i class="bi bi-calendar mr-2"></i>Citas</a>
+            </li>
+            <li class="nav-item">
+          </ul>
+    </div>      
+
+    <!--Informacion Paciente-->
+    <div class="container-fluid  mb-4">
+        <div class="container profile border rounded-sm mt-5 pt-5">
+            <div class="row">
+
+                <!--Columna izquierda-->
+                <div class="col-sm-4 col-lg-3  align-content-center">
+                    <!--Perfil-->
+                    <div class="card ">
+                        <div  class="card-background-profile">
+                            
+                        </div>
+                        <!--Imagen Perfil-->
+                        <div class="text-center GoUp">
+                            <img src="../Imagnes/Usuario2.jpg" class="rounded-circle border"width="100px" alt="Imagen de Uusuario">
+                        </div>
+                        <div class="card-body text-center">
+                          <h5 class="card-title">Perfil del Paciente</h5>
+                          <!--Lista Datos Paciente-->
+                          <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <label for="formGroupExampleInput">Documento:</label><br>
+                                <p class="card-text lead">111'000'9999</p>
+                            </li>
+                            <li class="list-group-item">
+                                <label for="formGroupExampleInput">Nombre:</label><br>
+                                <p class="card-text lead">Carla</p>
+                            </li>
+                            <li class="list-group-item">
+                                <label for="formGroupExampleInput">Apellido:</label><br>
+                                <p class="card-text lead">Deep</p>
+                            </li>
+                          </ul>
+                          
+                        </div>
+                      </div>            
+                </div>
+    
+                <!--Colmna derecha-->
+                <div class="col-sm-8 col-lg-9 mt-3 mt-sm-0  mb-2">
+                    <!--Informacion basica-->
+                    <div class="card mr-sm-3 ">
+                        <div class="card-header">
+                            <h5 class="card-title">Información Basica</h5>
+                        </div>
+                        <div class="card-body">
+                          <div class="card">
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item"><h6>Documento:</h6><p>100.184.0055</p></li>
+                              <li class="list-group-item"><h6>Nombre:</h6><p>Jane</p></li>
+                              <li class="list-group-item"><h6>Apellido:</h6><p>Cooper</p></li>
+                              <li class="list-group-item"><h6>Fecha de Nacimiento:</h6><p id="date_birth">2015-06-15</p></li>
+                              <li class="list-group-item"><h6>Pais:</h6><p>Colombia</p></li>
+                              <li class="list-group-item"><h6>Ciudad:</h6><p>Bogotá</p></li>
+                              <li class="list-group-item"><h6>Dirección:</h6><p>Cra 1B #18-09</p></li>
+                              <li class="list-group-item"><h6>Teléfono:</h6><p>300789654</p></li>
+                              <li class="list-group-item"><h6>EPS:</h6><p>Compensar</p></li>
+                            </ul>
+                          </div>
+                          
+
+                          <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary mt-3" id="schedule" data-toggle="modal" data-target="#exampleModal">
+                                Agendar
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Confirmación de edad del paciente</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                    <p id="msgConfirm"></p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                          
+
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>        
+
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

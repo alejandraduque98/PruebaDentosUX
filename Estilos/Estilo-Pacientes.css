@@ -1,0 +1,46 @@
+/*Estilos Gnerales*/
+body{
+    background-color: #F6F6F6;
+    font-family: 'Inter', sans-serif
+}
+a {
+    text-decoration: none !important;
+    color: #204497f8 !important;
+    border-bottom: 3px solid #C0BFBF !important;
+    font-size: 26px;
+}
+h5, h6{
+    color: #3D5DB2;
+}
+label{
+    color: #a1a1a1;
+    font-size: 16px;
+}
+/*fondo tarjeta del perfil primera franja*/
+.card-background-profile{
+    width:100%;
+    height: 100%;
+    padding: 25%;
+    background-color: #204497f8;
+}
+/*Foto del perfil*/
+.GoUp{
+    margin-top: -50px;
+}
+/*Caja contenedora del detalle del perfil*/
+.profile{
+    background-color: rgb(250, 250, 250);
+    border-color: #dbd9d9 !important;
+    border-radius:  .7em !important;
+    min-width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    -webkit-box-shadow: -1px 7px 15px 0px #C0BFBF; 
+    box-shadow: -1px 7px 15px 0px #C0BFBF;
+}
+/*Boton*/
+#schedule{
+    background-color: #3d5cb2c2;
+    border-color: #3D5DB2;
+    color: white !important;
+}
