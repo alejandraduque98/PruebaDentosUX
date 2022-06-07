@@ -1,6 +1,6 @@
 # Prueba tecnica dentos desarrollador UX/UI
 
-![Mockup](../PruebaDentosUX/Documentacion/web%20mockup.jpg)
+![Mockup](./Documentacion/web%20mockup.jpg)
  
 ***
 ## Prueba diseño
@@ -15,7 +15,7 @@ Permisos de acuerdo al cargo del usuario.
 3. Al abrir la cita se debe tener una opción para ver el perfil del paciente
 4. Ver lista de disponibilidad de doctores
 
-![Mockup](../PruebaDentosUX/Documentacion/Dise%C3%B1o%20Recepcionista.PNG)
+![Mockup](./Documentacion/Dise%C3%B1o%20Recepcionista.PNG)
 
 ### Doctores
 1. Ver la agenda con solo sus citas
