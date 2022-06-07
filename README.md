@@ -35,14 +35,14 @@ Dirección, Teléfono y EPS.
 Crear la página del perfil del paciente con los datos anteriormente
 mencionados, adicional agregarle un botón para agendarle citas.
 El botón debe tener las siguientes validaciones con JS:
-![Mockup](../PruebaDentosUX/Documentacion/perfil.png)
+![Mockup](./Documentacion/perfil.png)
 1. Si el paciente es menor a 18 años, al dar clic en el botón debe aparecer
 un mensaje que diga: “Ups! Para solicitar cita debe ser solicitada por su
 acudiente”
-![Mockup](../PruebaDentosUX/Documentacion/Modalmenoredad.PNG)
+![Mockup](./Documentacion/Modalmenoredad.PNG)
 2. Si el paciente es mayor o igual a 18 años, debe aparecer un mensaje
 que diga: “Paciente apto para citas.”
-![Mockup](../PruebaDentosUX/Documentacion/Modalmayordad.PNG)
+![Mockup](./Documentacion/Modalmayordad.PNG)
 
 ***
 
