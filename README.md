@@ -9,6 +9,11 @@ de agenda, el cual se puede ver para dos tipos de perfiles: recepcionistas y
 doctores; por lo tanto, es necesario diseñar los prototipos de alta fidelidad a
 desarrollar para dispositivos mobile y desktop.
 Permisos de acuerdo al cargo del usuario.
+***
+##  Diagrama de flujo
+
+![Mockup](./Documentacion/Diagrama.png)
+
 ### Recepcionista
 1. Ver la agenda con pacientes citados
 2. Buscar por doctor, fecha, hora y pacientes
@@ -21,8 +26,12 @@ Permisos de acuerdo al cargo del usuario.
 1. Ver la agenda con solo sus citas
 2. Al abrir la cita se debe tener una opción para ver el perfil del paciente
 3. Buscar por fecha, hora y pacientes
+![Mockup](./Documentacion/Doctor%20desk.PNG)
 4. Agregar cita nueva
+![Mockup](./Documentacion/Doctor%20modal%20agregar.PNG)
 5. Reprogramar cita
+![Mockup](./Documentacion/reprogramar%20citas.PNG)
+
 6. Al agregar y/o reprogramar una cita debe mostrar un mensaje que
 permita saber si el registro fue guardado o no satisfactoriamente
 
